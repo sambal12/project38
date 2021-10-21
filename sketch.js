@@ -11,8 +11,8 @@ var obstaclesGroup, obstacle1;
 
 var score=0;
 
-var gameOver, restart;
-
+var gameOver;
+var restart;
 function preload(){
   kangaroo_running =   loadAnimation("assets/kangaroo1.png","assets/kangaroo2.png","assets/kangaroo3.png");
   kangaroo_collided = loadAnimation("assets/kangaroo1.png");
